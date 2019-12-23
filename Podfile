@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 
-target 'Firebase4TvOS' do
+target 'Firebase_tvOS' do
     platform :tvos, '10.1'
     # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
     use_frameworks!

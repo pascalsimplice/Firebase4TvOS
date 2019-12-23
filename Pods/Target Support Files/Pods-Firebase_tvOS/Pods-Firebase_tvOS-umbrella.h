@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Firebase4TvOSVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Firebase4TvOSVersionString[];
+FOUNDATION_EXPORT double Pods_Firebase_tvOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Firebase_tvOSVersionString[];
 
