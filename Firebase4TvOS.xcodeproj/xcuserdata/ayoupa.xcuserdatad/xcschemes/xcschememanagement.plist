@@ -6,12 +6,19 @@
 	<dict>
 		<key>Firebase_tvOS.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C194F40F23B0E85700FFAD1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C1F446CB23A8E0BD00D2FCAB</key>
 		<dict>
 			<key>primary</key>
