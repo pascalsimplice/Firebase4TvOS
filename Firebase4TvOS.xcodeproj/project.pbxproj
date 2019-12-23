@@ -20,10 +20,7 @@
 		C194F41223B0E85700FFAD1B /* Firebase_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase_tvOS.h; sourceTree = "<group>"; };
 		C194F41323B0E85700FFAD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C194F41823B0E92400FFAD1B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		C1F446CF23A8E0BD00D2FCAB /* Firebase4TvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase4TvOS.h; sourceTree = "<group>"; };
-		C1F446D023A8E0BD00D2FCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39C5BAE17DE59FFE1E33088 /* Pods_Firebase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBE960B00BE776A4F0F5B47 /* Pods_Firebase4TvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase4TvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DF23DEE7411EEA251F9ECC /* Pods-Firebase_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +50,6 @@
 		850FCD9E944ABA9588D5EA3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCBE960B00BE776A4F0F5B47 /* Pods_Firebase4TvOS.framework */,
 				C39C5BAE17DE59FFE1E33088 /* Pods_Firebase_tvOS.framework */,
 			);
 			name = Frameworks;
@@ -62,6 +58,7 @@
 		C194F41123B0E85700FFAD1B /* Firebase_tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				C194F41823B0E92400FFAD1B /* TestView.swift */,
 				C194F41223B0E85700FFAD1B /* Firebase_tvOS.h */,
 				C194F41323B0E85700FFAD1B /* Info.plist */,
 			);
@@ -71,7 +68,6 @@
 		C1F446C223A8E0BD00D2FCAB = {
 			isa = PBXGroup;
 			children = (
-				C1F446CE23A8E0BD00D2FCAB /* Firebase4TvOS */,
 				C194F41123B0E85700FFAD1B /* Firebase_tvOS */,
 				C1F446CD23A8E0BD00D2FCAB /* Products */,
 				10F5E9BD80B3F8790286786B /* Pods */,
@@ -85,16 +81,6 @@
 				C194F41023B0E85700FFAD1B /* Firebase_tvOS.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C1F446CE23A8E0BD00D2FCAB /* Firebase4TvOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1F446CF23A8E0BD00D2FCAB /* Firebase4TvOS.h */,
-				C1F446D023A8E0BD00D2FCAB /* Info.plist */,
-				C194F41823B0E92400FFAD1B /* TestView.swift */,
-			);
-			path = Firebase4TvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
