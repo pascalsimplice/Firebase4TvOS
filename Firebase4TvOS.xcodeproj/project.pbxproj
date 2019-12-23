@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34AC6CEA13AFEB10222B7EF8 /* Pods_Firebase_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39C5BAE17DE59FFE1E33088 /* Pods_Firebase_tvOS.framework */; };
+		300B319A80FB1303DACD270B /* libPods-Firebase_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E98F7C2B8DE8FD9BA9B2E9 /* libPods-Firebase_tvOS.a */; };
 		C194F41423B0E85700FFAD1B /* Firebase_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C194F41223B0E85700FFAD1B /* Firebase_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C194F41923B0E92400FFAD1B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194F41823B0E92400FFAD1B /* TestView.swift */; };
 /* End PBXBuildFile section */
@@ -15,12 +15,12 @@
 /* Begin PBXFileReference section */
 		1F939BF88E05A7D70AB4EE1C /* Pods-Firebase_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_tvOS.release.xcconfig"; path = "Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2966B53EFE826F2A3DE89E5E /* Pods-Firebase4TvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase4TvOS.release.xcconfig"; path = "Target Support Files/Pods-Firebase4TvOS/Pods-Firebase4TvOS.release.xcconfig"; sourceTree = "<group>"; };
+		42E98F7C2B8DE8FD9BA9B2E9 /* libPods-Firebase_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Firebase_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F938F9AFB782028C69727 /* Pods-Firebase4TvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase4TvOS.debug.xcconfig"; path = "Target Support Files/Pods-Firebase4TvOS/Pods-Firebase4TvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C194F41023B0E85700FFAD1B /* Firebase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Firebase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C194F41223B0E85700FFAD1B /* Firebase_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase_tvOS.h; sourceTree = "<group>"; };
 		C194F41323B0E85700FFAD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C194F41823B0E92400FFAD1B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		C39C5BAE17DE59FFE1E33088 /* Pods_Firebase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DF23DEE7411EEA251F9ECC /* Pods-Firebase_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AC6CEA13AFEB10222B7EF8 /* Pods_Firebase_tvOS.framework in Frameworks */,
+				300B319A80FB1303DACD270B /* libPods-Firebase_tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 		850FCD9E944ABA9588D5EA3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C39C5BAE17DE59FFE1E33088 /* Pods_Firebase_tvOS.framework */,
+				42E98F7C2B8DE8FD9BA9B2E9 /* libPods-Firebase_tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
