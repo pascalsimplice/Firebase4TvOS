@@ -6,13 +6,13 @@ target 'Firebase_tvOS' do
     #use_frameworks!
 
     # Pods for tvOSSample
-    pod 'FirebaseCore'
-    pod 'FirebaseCoreDiagnostics'
-    pod 'FirebaseCoreDiagnosticsInterop'
-    pod 'FirebaseAuth'
-    pod 'FirebaseDatabase'
-    pod 'FirebaseStorage'
-    pod 'GoogleDataTransport'
-    pod 'GoogleDataTransportCCTSupport'
+    pod 'Firebase/ABTesting'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Functions'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/RemoteConfig'
+    pod 'Firebase/Storage'
 
 end

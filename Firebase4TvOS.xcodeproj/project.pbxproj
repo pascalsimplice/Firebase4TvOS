@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -107,6 +107,7 @@
 				C194F40C23B0E85700FFAD1B /* Sources */,
 				C194F40D23B0E85700FFAD1B /* Frameworks */,
 				C194F40E23B0E85700FFAD1B /* Resources */,
+				079734F7272E752EAC9ACF51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +124,7 @@
 		C1F446C323A8E0BD00D2FCAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Pascal Simplice";
 				TargetAttributes = {
@@ -138,6 +140,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C1F446C223A8E0BD00D2FCAB;
 			productRefGroup = C1F446CD23A8E0BD00D2FCAB /* Products */;
@@ -160,6 +163,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		079734F7272E752EAC9ACF51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E283D3001449BDF2A159E6A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
